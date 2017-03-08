@@ -8,3 +8,4 @@ deployment:
 test:
   override:
     - echo "test"
+    - echo $DOCKER_HUB_TRIGGER
